@@ -55,8 +55,8 @@ pip install -r requirements.txt
 ### Basic Usage
 ```python
 # Load and prepare data
-train_df = pd.read_csv('data/train.csv', index_col='DATE', parse_dates=True)
-validation_df = pd.read_csv('data/test.csv', index_col='DATE', parse_dates=True)
+train_df = pd.read_csv('train.csv', index_col='DATE', parse_dates=True)
+validation_df = pd.read_csv('test.csv', index_col='DATE', parse_dates=True)
 
 # Train models
 train(train_df)
